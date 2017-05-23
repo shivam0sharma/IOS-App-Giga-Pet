@@ -77,6 +77,51 @@
                                     </mask>
                                 </variation>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="idle1" translatesAutoresizingMaskIntoConstraints="NO" id="Z4L-lV-KOs">
+                                <rect key="frame" x="120" y="300" width="314" height="368"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="444" id="6Rt-qy-2QZ">
+                                        <variation key="heightClass=compact" constant="424"/>
+                                    </constraint>
+                                    <constraint firstAttribute="width" secondItem="Z4L-lV-KOs" secondAttribute="height" multiplier="157:119" id="6Yr-ya-Q4s"/>
+                                    <constraint firstAttribute="width" secondItem="Z4L-lV-KOs" secondAttribute="height" multiplier="597:433" id="9yk-JA-2Me"/>
+                                    <constraint firstAttribute="width" constant="314" id="BnX-tj-KiA"/>
+                                    <constraint firstAttribute="width" constant="314" id="EDr-E3-jyg"/>
+                                    <constraint firstAttribute="width" secondItem="Z4L-lV-KOs" secondAttribute="height" multiplier="597:433" id="IXP-Vl-Fqj"/>
+                                    <constraint firstAttribute="height" constant="238" id="Ov5-NX-Nwy"/>
+                                    <constraint firstAttribute="height" constant="307" id="ueX-lI-wnK">
+                                        <variation key="heightClass=compact" constant="287"/>
+                                    </constraint>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="6Rt-qy-2QZ"/>
+                                        <exclude reference="6Yr-ya-Q4s"/>
+                                        <exclude reference="9yk-JA-2Me"/>
+                                        <exclude reference="BnX-tj-KiA"/>
+                                        <exclude reference="EDr-E3-jyg"/>
+                                        <exclude reference="IXP-Vl-Fqj"/>
+                                        <exclude reference="Ov5-NX-Nwy"/>
+                                        <exclude reference="ueX-lI-wnK"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="6Rt-qy-2QZ"/>
+                                        <include reference="ueX-lI-wnK"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular">
+                                    <mask key="constraints">
+                                        <exclude reference="6Yr-ya-Q4s"/>
+                                        <exclude reference="9yk-JA-2Me"/>
+                                        <exclude reference="BnX-tj-KiA"/>
+                                        <include reference="EDr-E3-jyg"/>
+                                        <exclude reference="IXP-Vl-Fqj"/>
+                                        <exclude reference="Ov5-NX-Nwy"/>
+                                    </mask>
+                                </variation>
+                            </imageView>
                             <stackView opaque="NO" contentMode="scaleToFill" spacing="11" translatesAutoresizingMaskIntoConstraints="NO" id="qno-tO-AKY">
                                 <rect key="frame" x="106.33333333333331" y="30" width="202" height="60"/>
                                 <subviews>
@@ -173,7 +218,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="5Tv-yw-0Qc">
                                 <rect key="frame" x="102" y="125" width="210" height="90"/>
                                 <subviews>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heart" translatesAutoresizingMaskIntoConstraints="NO" id="ueJ-3U-NdI">
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="heart" translatesAutoresizingMaskIntoConstraints="NO" id="ueJ-3U-NdI" customClass="DragImage" customModule="Giga_Pet" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="0.0" width="90" height="90"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="90" id="1bg-cB-5HN"/>
@@ -202,7 +247,7 @@
                                             </mask>
                                         </variation>
                                     </imageView>
-                                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="food" translatesAutoresizingMaskIntoConstraints="NO" id="LFW-ah-Zwq">
+                                    <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="food" translatesAutoresizingMaskIntoConstraints="NO" id="LFW-ah-Zwq" customClass="DragImage" customModule="Giga_Pet" customModuleProvider="target">
                                         <rect key="frame" x="120" y="0.0" width="90" height="90"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="90" id="Ffa-EM-Y0P"/>
@@ -236,51 +281,6 @@
                                 <variation key="heightClass=compact-widthClass=regular" spacing="20"/>
                                 <variation key="heightClass=regular-widthClass=compact" spacing="30"/>
                             </stackView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="idle1" translatesAutoresizingMaskIntoConstraints="NO" id="Z4L-lV-KOs">
-                                <rect key="frame" x="120" y="300.33333333333337" width="314" height="368.00000000000011"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="444" id="6Rt-qy-2QZ">
-                                        <variation key="heightClass=compact" constant="424"/>
-                                    </constraint>
-                                    <constraint firstAttribute="width" secondItem="Z4L-lV-KOs" secondAttribute="height" multiplier="157:119" id="6Yr-ya-Q4s"/>
-                                    <constraint firstAttribute="width" secondItem="Z4L-lV-KOs" secondAttribute="height" multiplier="597:433" id="9yk-JA-2Me"/>
-                                    <constraint firstAttribute="width" constant="314" id="BnX-tj-KiA"/>
-                                    <constraint firstAttribute="width" constant="314" id="EDr-E3-jyg"/>
-                                    <constraint firstAttribute="width" secondItem="Z4L-lV-KOs" secondAttribute="height" multiplier="597:433" id="IXP-Vl-Fqj"/>
-                                    <constraint firstAttribute="height" constant="238" id="Ov5-NX-Nwy"/>
-                                    <constraint firstAttribute="height" constant="307" id="ueX-lI-wnK">
-                                        <variation key="heightClass=compact" constant="287"/>
-                                    </constraint>
-                                </constraints>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="6Rt-qy-2QZ"/>
-                                        <exclude reference="6Yr-ya-Q4s"/>
-                                        <exclude reference="9yk-JA-2Me"/>
-                                        <exclude reference="BnX-tj-KiA"/>
-                                        <exclude reference="EDr-E3-jyg"/>
-                                        <exclude reference="IXP-Vl-Fqj"/>
-                                        <exclude reference="Ov5-NX-Nwy"/>
-                                        <exclude reference="ueX-lI-wnK"/>
-                                    </mask>
-                                </variation>
-                                <variation key="heightClass=compact">
-                                    <mask key="constraints">
-                                        <include reference="6Rt-qy-2QZ"/>
-                                        <include reference="ueX-lI-wnK"/>
-                                    </mask>
-                                </variation>
-                                <variation key="heightClass=regular">
-                                    <mask key="constraints">
-                                        <exclude reference="6Yr-ya-Q4s"/>
-                                        <exclude reference="9yk-JA-2Me"/>
-                                        <exclude reference="BnX-tj-KiA"/>
-                                        <include reference="EDr-E3-jyg"/>
-                                        <exclude reference="IXP-Vl-Fqj"/>
-                                        <exclude reference="Ov5-NX-Nwy"/>
-                                    </mask>
-                                </variation>
-                            </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
@@ -378,6 +378,8 @@
                         </variation>
                     </view>
                     <connections>
+                        <outlet property="foodImg" destination="LFW-ah-Zwq" id="FF5-jW-zs6"/>
+                        <outlet property="heartImg" destination="ueJ-3U-NdI" id="G9x-UI-PYq"/>
                         <outlet property="monsterImg" destination="Z4L-lV-KOs" id="SNC-j8-I5U"/>
                     </connections>
                 </viewController>
