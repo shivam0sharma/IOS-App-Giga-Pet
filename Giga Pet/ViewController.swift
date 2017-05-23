@@ -9,10 +9,22 @@
 import UIKit
 
 class ViewController: UIViewController {
+    
+    @IBOutlet weak var monsterImg: UIImageView!
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        var imageArray = [UIImage]()
+        for x in 1...4 {
+            let image = UIImage(named: "idle\(x).png")
+            imageArray.append(image!)
+        }
+        
+        monsterImg.animationImages = imageArray
+        monsterImg.animationDuration = 0.8
+        monsterImg.animationRepeatCount = 0
+        monsterImg.startAnimating()
     }
 }
 
