@@ -77,7 +77,7 @@
                                     </mask>
                                 </variation>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="idle1" translatesAutoresizingMaskIntoConstraints="NO" id="Z4L-lV-KOs">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="idle1" translatesAutoresizingMaskIntoConstraints="NO" id="Z4L-lV-KOs" customClass="Monster" customModule="Giga_Pet" customModuleProvider="target">
                                 <rect key="frame" x="120" y="300" width="314" height="368"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="444" id="6Rt-qy-2QZ">
